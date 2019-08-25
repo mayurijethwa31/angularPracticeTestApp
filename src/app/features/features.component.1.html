@@ -1,0 +1,10 @@
+<p>
+  features works!
+</p>
+<p>to fetch data from url</p>
+<p>the feature id is :{{featureUpdate.id}}</p>
+<p>the feature is :{{featureUpdate.val}}</p>
+
+<a [routerLink] = "['/features',10,'mobility']">reload page with id as 10  and feature as mobility</a>
+
+<button (click)="fireEventForFeatures()" type="button">fire event for features</button>

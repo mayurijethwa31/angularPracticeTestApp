@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myAp';
+  messageFromParent = "I'm a parent";
+  public message = "";
+  public messageFromFeatureChild: "";
 }
